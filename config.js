@@ -14,7 +14,7 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/New Delhi";
 global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
-global.gurl = process.env.GURL || "";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/EZjCgLTJfRd8LHOyVC163u";
 global.website = process.env.GURL || "";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://imgur.com/a/rViJ2fT";
 global.devs = "917439317360";
@@ -49,10 +49,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
-  author: process.env.PACK_AUTHER || "ADRIEN",
-  packname: process.env.PACK_NAME || "♥️",
+  author: process.env.PACK_AUTHER || "𝆺𝅥 𝇁 ֹ 𝄄 س ꓹ 𝚫𝐃𝐑𝐈𝚵𝚴 𓂃🧣",
+  packname: process.env.PACK_NAME || "",
   botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
-  ownername: process.env.OWNER_NAME || "ADRIEN",
+  ownername: process.env.OWNER_NAME || "𝚫𝐃𝐑𝐈𝚵𝚴",
   errorChat: process.env.ERROR_CHAT || "91743937360",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
